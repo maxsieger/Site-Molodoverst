@@ -75,6 +75,7 @@ header {
     justify-content: center;
     gap: 45px;
     text-align: center;
+    margin-left: 0px;
 }
 
 .p_l {
@@ -90,6 +91,7 @@ header {
 .p_3 {
     color: white;
     font-size: 30px;
+    padding-left: 10px;
 }
 
 footer {
@@ -281,4 +283,47 @@ footer {
 
     .p_act {
         color: white;
+    }
+
+    @media (max-width: 1200px) {
+        .product_list {
+            gap: 20px;
+        }
+    }
+
+    @media (max-width: 1130px) {
+        .product_list {
+            gap: 10px;
+        }
+    }
+
+    @media (max-width: 1105px) {
+        .product_list {
+            flex-direction: column;
+        }
+        .two-section {
+            height: 2500px;
+        }
+    }
+
+    @media (max-width: 769px) {
+        .first-section {
+            height: 800px;
+        }
+
+        .first-section-rools {
+            height: 1400px;
+        }
+
+
+    }
+
+    @media (max-width: 659px) {
+        .first-section {
+            height: 950px;
+        }
+        .first-section-rools {
+            height: 1380px;
+        }
+
     }
